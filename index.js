@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const Shapes = require('./lib/shapes.js');
-const genShapes = require('./lib/genShapes');
+const genShapes = require('./lib/genShapes.js');
+const genSVG = require('./libs/genSVG.js')
 
 
 inquirer
