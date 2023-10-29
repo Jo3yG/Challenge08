@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "is-css3-color": "^1.0.0"
   },
   "name": "challenge08",
   "description": "## Your Task",
@@ -13,7 +14,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
+    
   },
   "keywords": [],
   "author": "",
