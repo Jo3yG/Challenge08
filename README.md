@@ -20,8 +20,7 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Description #2
-This project was all about generating a READMETester by inputing answers given through the terminal, there was a lot we had went through in class but one of the tricky items was reading up about the util as well as the async function.
-
+This project was all about generating a SVG Logo by inputing answers given through the terminal, there was a lot we had went through in class, as well as putting everything together, i tried to separate as much as i can in order to find everything. 
 
 ## Contribution
 Jo3yG = GitHub
