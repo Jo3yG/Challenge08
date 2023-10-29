@@ -23,7 +23,7 @@ inquirer
 },
 {
     type:'list',
-    name:'shapeLogo'
+    name:'shapeLogo',
     message:'Please choose a shape',
     choices:['Triangle','Circle','Square'],
 },
