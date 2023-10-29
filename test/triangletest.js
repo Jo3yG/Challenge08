@@ -10,7 +10,7 @@ describe('Triangle',() =>{
                 bgColor:'#000',
             });
             expect(triangle.render()).toBe(
-                `polygon points='100 0, 0 ,0 50, 00' fill='#000'/>`
+                `<polygon points='100 0, 0 ,0 50, 00' fill='#000'/>`
             );
         });
     });
