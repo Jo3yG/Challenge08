@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const Shapes = require('./lib/shapes.js');
 const genShapes = require('./lib/genShapes.js');
-const genSVG = require('./libs/genSVG.js')
+const genSVG = require('./lib/SVG.js')
 
 
 inquirer
@@ -32,7 +32,7 @@ inquirer
     const svgLoc = './lib/logo.svg';
     const logoFinalized = genShapes(data);
 
-    fs.writeFile(svgLoc, SVG(logoFinalized), (err) =>
+    fs.writeFile(svgLoc, genSVG(logoFinalized), (err) =>
     err ? console.error(err) : console.log('SVG Generated')
     );
 })
