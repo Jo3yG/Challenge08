@@ -29,5 +29,12 @@ inquirer
 },
 ])
 .then((data) =>{
+    const svgLoc = './lib/logo.svg';
+    const logoFinalized = genShapes(data);
 
+    fs.writeFile(svgLoc, SVG(logoFinalized), (err) =>
+    err ? console.error(err) : console.log('SVG Generated')
+    );
 })
+
+.catch((err) => console.error(err));
