@@ -10,7 +10,7 @@ describe('Square',() =>{
                 bgColor:'green',
             });
             expect(square.render()).toBe(
-                `<rect width='100' height='100' rx='15' fill='green'>/>`
+                `<rect width='100' height='100' rx='15' fill='green'/>`
             );
         });
     });
